@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+<title>Adam Zegar</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Hi! I'm Adam Zegar.</h1><h1>Salut! Je suis Adam Zegar.</h1><h1 id="ar">السلام عليكم! أنا آدم زڨار.</h1>
+      <button type="submit" id="sendEmail">
+Send me an email /
+Envoyez-moi un courriel /
+إبعثلي رسالة إلكترونية</button>
+    </main>
+
+     <script> 
+  document.getElementById('sendEmail').onclick = function() { 
+            window.location.href = `mailto:adam@zegar.fr`;
+        }; 
+    </script>
+<style>
+main {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+}
+#ar {
+  direction: rtl;
+}
+</style>
+  </body>
+</html>
